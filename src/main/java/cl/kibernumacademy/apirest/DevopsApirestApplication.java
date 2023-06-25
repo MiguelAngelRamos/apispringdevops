@@ -22,11 +22,8 @@ public class DevopsApirestApplication implements CommandLineRunner{
 
 @Override
  public void run(String... args) throws Exception {
-  Student student1 = new Student("Miguel", "Ramos", "mramoscli@correo.com");
-  Student student2 = new Student("Camila", "Marquez", "cmarquez@correo.com");
+  Student student1 = new Student("devops", "kibernum", "devopskibernum@correo.com");
    repository.save(student1);
-   repository.save(student2);
-
  }
 
 }
